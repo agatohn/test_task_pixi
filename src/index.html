@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling shapes test task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <div id="stats" class="stats">
+            <div class="stat-block">
+                <span id="shapeCount">Shapes: 0</span>
+            </div>
+            <div class="stat-block">
+                <span id="area">Area: 0 px²</span>
+            </div>
+        </div>
+        <div id="app" class="app-container"></div>
+        <div id="controls" class="controls">
+            <div class='shapes-controls'>
+                <button id="increaseShapes" class='shapes-controls-button'>
+
+                </button>
+                <button id="decreaseShapes" class='shapes-controls-button'>
+
+                </button>
+            </div>
+            <span id="shapesPerSecondValue" class='shapes-controls-text'>0 Shapes/sec</span>
+            <div class='shapes-controls'>
+                <button id="increaseGravity" class='shapes-controls-button'></button>
+                <button id="decreaseGravity" class='shapes-controls-button'></button>
+            </div>
+            <span id="gravityValue" class='shapes-controls-text'>Gravity 0</span>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="index.ts">
+    </script>
+
+</body>
+
+</html>
